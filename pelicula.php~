@@ -1,0 +1,8 @@
+<?
+require_once("DaoPelicula.php");
+class recomendacion{
+	
+	public function recomendacion(){}	
+}
+
+?>
