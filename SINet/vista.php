@@ -53,15 +53,7 @@
             <hr>
         </div>
         <div class="parametros">
-        	<span>Elige un conjunto de particiones de entrenamiento (5-cross validation)</span><br />
-            <select id="particiones">
-                <option value="0,2550">0,2550 </option>
-                <option value="637, 2550">637,3187 </option>
-                <option value="637, 2550">0,637 - 1274,3187 </option>
-                <option value="637, 2550">0,1274 - 1911, 3187 </option>
-                <option value="637, 2550">0,1911- 2548,3187 </option>                
-            </select>
-        	<br /><br />
+        
         	<span>Elige un metodo para calcular</span>
             <select id="calculoSimilitud">
                 <option value="PCC">Coeficiente de correlacion de Pearson</option>
@@ -73,14 +65,13 @@
                 <option value="10">10</option>
                 <option value="20">20</option>
                 <option value="30">30</option>
-            </select><br>
+            </select><br><br>
             <span>Algoritmo de prediccion</span><br>
             <select id="algoritmoPrediccion">
                 <option value="IA">Item average</option>
-                <option value="WS">Weighted sum</option>
-                
-            </select>
-            <br /><br />
+                <option value="WS">Weighted sum</option>                
+            </select>             
+            <br /><br>
             <input type="button" value="Ejecutar con parametros especificados" onclick="ejecuta()"/>
         </div>
         <div class="resultado" id="resultad">

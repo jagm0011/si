@@ -5,9 +5,11 @@ function ejecuta(){
 	
 	var calculoSimilitud=document.getElementById('calculoSimilitud').value
 	var kVecinos=document.getElementById('kVecinos').value
+        var algoritmoPrediccion=document.getElementById('algoritmoPrediccion').value;
 	var action='calculoVecino';
 	
-	$.post('index.php',{action:action,kVecinos:kVecinos,calculoSimilitud:calculoSimilitud  }, 
+	$.post('index.php',{action:action,kVecinos:kVecinos,calculoSimilitud:calculoSimilitud,
+                        algoritmoPrediccion:algoritmoPrediccion  }, 
 			function(data){			
 			muestraPantalla();
 			var aux=data.split('####')
