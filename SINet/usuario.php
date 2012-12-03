@@ -2,10 +2,8 @@
 require_once("DaoUsuario.php");
 class usuario{
 		
-	public function usuario(){
-		#Prueba
-                #prueba
-                #prueba 3
-	}
+    public function usuario(){
+            #prueba 1
+    }
 }
 ?>
